@@ -1,0 +1,19 @@
+<div class="container m-3">
+  <div class="container m-2">
+    <h1>Stupid Coach</h1>
+    <div>
+      <div class="container mt-3">
+        <div class="border-start ps-3">
+          <p class="fw-bold mb-1"><%= @your_message %></p>
+          <p class="fst-italic text-muted mb-0">— You</p>
+        </div>
+      </div>
+    <div class="container my-3">
+      <div class="border-start ps-3">
+        <p class="fw-bold mb-1"><%= @answer %></p>
+        <p class="fst-italic text-muted mb-0">— Your coach</p>
+      </div>
+    </div>
+    <%= link_to "Ask a new question", "/", class: "btn btn-dark" %>
+  </div>
+</div>
